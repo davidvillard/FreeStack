@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
-import ButtonGithubStar from "@/components/ui/Button-star-github";
+import ButtonGithubStar from "@/components/ui/button-star-github";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +27,7 @@ export default function Home() {
 
       <div className="flex flex-col items-center text-center gap-4 sm:gap-6 mt-8">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
-          Bienvenido a <span className="text-[#ffea00]">Free Stack</span>
+          Bienvenido a <span className="text-[#ffea00]">Stack Hub</span>
         </h1>
 
         <p className="text-lg sm:text-xl md:text-2xl text-neutral-300 max-w-2xl text-wrap">
